@@ -1,0 +1,21 @@
+Git Tutorial
+
+1. Repository operations:
+    1. Create new local repo -> git init
+    2. Create new remote repo -> git remote add origin <URL>
+    3. Push to remote repo -> git push -u origin <remoteBranchName>
+    4. Clone existing remote repo -> git clone <URL>
+2. Branch operations:
+    1. List all available branches -> git branch
+    2. Checkout existing branch -> git checkout <branchName>
+    3. Create new branch -> git branch <nameOfNewBranch>
+    4. Create and checkout new branch git checkout -b <newBranchName>
+    5. Delete existing branch -> git branch -D <nameOfBranch>
+    6. Modify existing branch name -> git branch -m <oldBranchName> <newBranchName>
+
+2. Merge operations:
+    1. Merge from another branch to current one -> git merge <origin/anotherRemoteBranch|anotherLocalBranch>
+
+2. Files operations:
+    1. Display file content -> head -<linesFromTop> <fileName>
+    2. 
