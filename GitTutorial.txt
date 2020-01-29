@@ -1,5 +1,5 @@
 Git Tutorial
-
+----------------------------------------------------------------------------------------
 1. Repository operations:
     1. Create new local repo -> git init
     2. Create new remote repo -> git remote add origin <URL>
