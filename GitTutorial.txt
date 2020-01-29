@@ -15,7 +15,7 @@ Git Tutorial
 
 2. Merge operations:
     1. Merge from another branch to current one -> git merge <origin/anotherRemoteBranch|anotherLocalBranch>
-
+--------------------------------------------------------------------------------------------------------------
 2. Files operations:
     1. Display file content -> head -<linesFromTop> <fileName>
     2. 
