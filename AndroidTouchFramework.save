@@ -1,0 +1,6 @@
+1. MotionEvent(Touch location, Number of pointers - fingers, event time, action...)
+	- Each touch event starts from ACTION_DOWN and ends with ACTION_UP
+	- Each touch event first off all arieves to activity with it dispatchTouchEvent() method and 
+		then flow from top to down through views to it destinattion view that declared been interested 
+		in this event by returning "true" from it onTouchEvent(). If any veiw not consumed event it returns back 
+		from down to top to activity onTouchEvent()
